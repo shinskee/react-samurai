@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    grid-area: header;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.099); */
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header img {
+    height: 40px;
+    width: 100%;
+}
+
+.loginBlock img {
+    height: 15px;
+    width: 15px;
+}
+
+.loginBlock a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+.loginBlock a:hover {
+    opacity: .8;
+}

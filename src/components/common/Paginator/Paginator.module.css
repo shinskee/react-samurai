@@ -1,0 +1,68 @@
+.currentPageCount {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: #efefef;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PageCount {
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .3s;
+}
+
+.arrow:hover {
+    opacity: .8;
+}
+
+.arrowDisabled {
+    cursor: not-allowed;
+    opacity: .5;
+    width: 20px;
+    height: 20px;
+}
+
+.arrow {
+    cursor: pointer;
+    transition: opacity .3s;
+    width: 20px;
+    height: 20px;
+}
+
+.PageCount:hover {
+    border-radius: 50%;
+    opacity: .8;
+}
+
+.paginator {
+    padding: 0 10px;
+    margin: 0 auto;
+    width: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 11px -4px rgba(34, 60, 80, 0.2);
+    user-select: none;
+}
+
+.paginator button {
+    cursor: pointer;
+}

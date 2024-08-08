@@ -1,0 +1,40 @@
+a {
+  color: #0D0D0D;
+  text-decoration: none;
+}
+
+.app-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-areas: 
+  'header header'
+  'Navbar content';
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+body {
+  color: #0D0D0D;
+  background-color: #F5F5F5;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  grid-area: content;
+  background-color: transparent;
+  border-radius: 10px;
+}
+

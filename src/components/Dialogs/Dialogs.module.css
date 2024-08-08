@@ -1,0 +1,56 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.dialogsItems {
+    /* border-right: 1px solid rgba(0, 0, 0, 0.12); */
+}
+
+.dialog img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.dialog {
+    cursor: pointer;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.dialog a[class='active'] {
+    color: #9C21C8;
+}
+
+.dialog a:hover {
+    color: #9C21C8;
+}
+
+.messagesInner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.message {
+    /* padding-top: 20px; */
+}
+
+.messagesInput {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+

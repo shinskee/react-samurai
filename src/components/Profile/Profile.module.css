@@ -1,0 +1,167 @@
+.profile {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.banner {
+    box-shadow: 0px 5px 11px -4px rgba(34, 60, 80, 0.2);
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+.avatar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.input {
+    display: flex;
+    column-gap: 20px;
+    padding: 20px;
+}
+
+.myPost {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.post {
+    padding: 20px 20px;
+    display: flex;
+    column-gap: 20px;
+    align-items: start;
+}
+
+.post img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post p {
+    padding: 20px;
+    box-shadow: 0px 5px 11px -4px rgba(34, 60, 80, 0.2);
+    border-radius: 10px;
+}
+
+.post h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.feedback {
+    display: flex;
+    column-gap: 10px;
+    justify-content: start;
+    padding-top: 10px;
+}
+
+.profileUser {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.job {
+    box-shadow: 0px 5px 11px -4px rgba(34, 60, 80, 0.2);
+    border-radius: 10px;
+    width: max-content;
+    padding: 0 8px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    color: #9C21C8;
+}
+
+.job img {
+    width: 20px;
+}
+
+.info {
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+}
+.socialIcon {
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.socialInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    flex-direction: column;
+}
+
+.profileStatus button svg {
+    width: 15px;
+    height: 15px;
+    opacity: .5;
+}
+
+.profileStatus button path {
+    width: 15px;
+    height: 15px;
+}
+
+.profileStatus button {
+    width: 30px;
+    height: 15px;
+}
+
+.profileStatus button:hover svg {
+    opacity: 1;
+}
+
+.profileStatus button {
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.profileStatus {
+    display: flex;
+    align-items: center;
+}
+
+.profileMy img {
+    width: 60px;
+    height: 60px;
+}
+
+.profileMy {
+    padding: 20px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.profileMyInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
